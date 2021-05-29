@@ -74,7 +74,7 @@ function startGame() {
 function startTimer() {
   // Sets time remainingon input
   if (id("time-1").checked) timeRemaining = 180;
-  else if (id("time-2").checked) timeRemaining = 360;
+  else if (id("time-2").checked) timeRemaining = 300;
   else timeRemaining = 600;
   // Sets timer for first second
   id("timer").textContent = timeConversion(timeRemaining);
